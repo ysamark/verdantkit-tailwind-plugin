@@ -1,3 +1,4 @@
+import tailwindCssTypography from "@tailwindcss/typography";
 import tailwindCssAnimate from "tailwindcss-animate";
 import plugin from "tailwindcss/plugin";
 
@@ -274,7 +275,7 @@ export const VerdantKitTailwindPlugin = plugin(
         },
       },
     },
-    plugins: [tailwindCssAnimate],
+    plugins: [tailwindCssAnimate, tailwindCssTypography],
   }
 );
 
