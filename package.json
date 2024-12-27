@@ -20,6 +20,13 @@
     "README.md",
     "package.json"
   ],
+  "exports": {
+    "plugin": {
+      "import": "./dist/plugin.js",
+      "require": "./dist/plugin.js",
+      "types": "./dist/plugin.d.ts"
+    }
+  },
   "bugs": {
     "url": "https://github.com/ysamark/verdantkit-tailwind-plugin/issues",
     "email": "hatatsu@ysamark.ao"
