@@ -21,7 +21,12 @@
     "package.json"
   ],
   "exports": {
-    "plugin": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./plugin": {
       "import": "./dist/plugin.js",
       "require": "./dist/plugin.js",
       "types": "./dist/plugin.d.ts"
